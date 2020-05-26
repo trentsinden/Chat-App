@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 80%;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+#message-container {
+  width: 100%;
+}
+
+#message-container div {
+  margin: 20px;
+  padding: 20px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  background-color: #ccc;
+}
+
+#message-container div:nth-child(2n) {
+  background-color: #5fc9f8;
+  color: white;
+}
+
+#send-container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 80%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+#message-input {
+  width: 90%;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#send-button {
+  font-size: 1.2rem;
+  padding: 20px;
+  border: 1px solid black;
+}
